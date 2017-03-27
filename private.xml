@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<root>
+  <item>
+    <name>Corsair K70 LUX media key fix</name>
+    <identifier>private.mute_by_space</identifier>
+    <autogen>__KeyToKey__ ConsumerKeyCode::MUSIC_PREV_18, ConsumerKeyCode::MUSIC_PREV</autogen>
+    <autogen>__KeyToKey__ ConsumerKeyCode::MUSIC_NEXT_17, ConsumerKeyCode::MUSIC_NEXT</autogen>
+  </item>
+</root>
