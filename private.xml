@@ -1,9 +1,14 @@
 <?xml version="1.0"?>
 <root>
   <item>
-    <name>Corsair K70 LUX media key fix</name>
-    <identifier>private.mute_by_space</identifier>
+    <name>Corsair K70 LUXrmedia key fix</name>
+    <identifier>private.k70_media_key_fix</identifier>
     <autogen>__KeyToKey__ ConsumerKeyCode::MUSIC_PREV_18, ConsumerKeyCode::MUSIC_PREV</autogen>
     <autogen>__KeyToKey__ ConsumerKeyCode::MUSIC_NEXT_17, ConsumerKeyCode::MUSIC_NEXT</autogen>
+  </item>
+  <item>
+    <name>NumLock as NeteaseMusic like</name>
+    <identifier>private.numlock_neteasemusic_like</identifier>
+    <autogen>__KeyToKey__ KeyCode::PC_KEYPAD_NUMLOCK, KeyCode::L, ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L | ModifierFlag::COMMAND_L | ModifierFlag::OPTION_L</autogen>
   </item>
 </root>
